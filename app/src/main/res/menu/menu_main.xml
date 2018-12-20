@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.matth.gradebook.MainActivity">
+    <item
+        android:id="@+id/action_assignments"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_assignments"
+        android:title="Assignments">
+    </item>
+    <item
+        android:id="@+id/action_courses"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_courses"
+        android:title="Courses">
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

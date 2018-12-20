@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.matth.gradebook.AddEditDeleteAssignmentActivity"
+    tools:showIn="@layout/activity_add_edit_delete_assignment">
+
+    <TextView
+        android:id="@+id/assignmentNameHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:text="@string/assignment_name"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/assignmentNameInput"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/assignmentNameHeader"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:hint="@string/assignment_name_hint"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/dueDateHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/assignmentNameInput"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:text="@string/assignment_due_date"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:inputType="date"
+        android:id="@+id/dueDateInput"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dueDateHeader"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:hint="@string/due_date_hint"
+        android:textAppearance="@style/TextAppearance.AppCompat"/>
+
+    <TextView
+        android:id="@+id/studentScoreHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dueDateInput"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:text="@string/student_score"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/studentScoreInput"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentScoreHeader"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:hint="@string/score_hint"
+        android:textAppearance="@style/TextAppearance.AppCompat"/>
+
+    <TextView
+        android:id="@+id/maxScoreHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentScoreInput"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:text="@string/max_score"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/maxScoreInput"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maxScoreHeader"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:hint="@string/score_hint"
+        android:textAppearance="@style/TextAppearance.AppCompat"/>
+
+    <!--Added a checkbox for indicating graded -Matt-->
+    <CheckBox
+        android:id="@+id/gradedCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maxScoreInput"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:text="Assignment has been Graded" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gradedCheckBox"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:layout_weight=".5"
+            android:text="@string/save_button"/>
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_weight=".5"
+            android:text="@string/delete_button"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

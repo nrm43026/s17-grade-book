@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/assignmentNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assignment #1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Score: 9/10" />
+
+    <TextView
+        android:id="@+id/percentageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Percentage: 90%" />
+
+    <TextView
+        android:id="@+id/dueDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Due Date: Jan 1st 2018"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hiddenAssignmentID"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:visibility="invisible"
+        />
+
+
+</LinearLayout>

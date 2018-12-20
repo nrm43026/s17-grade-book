@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.matth.gradebook.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/weeklyRemindersTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+
+        android:text="@string/assignments_due_in_the_next_7_days"
+        android:textSize="22sp" />
+
+
+    <Button
+        android:id="@+id/goToCoursesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_Courses"
+        android:onClick="go_to_Courses"/>
+
+    <!--  Removing test buttons -Nathan
+
+    <Button
+        android:id="@+id/testCourseAssignmentsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Course Assignments Activity"
+        android:onClick="go_to_Courses"/>
+
+    <Button
+        android:id="@+id/testAddEditDeleteCourseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Add/Edit/Delete Course Activity"
+        android:onClick="go_to_Courses"/>
+
+    <Button
+        android:id="@+id/testAddEditDeleteAssignmentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Add/Edit/Delete Assignment Activity"
+        android:onClick="go_to_Courses"/>
+
+    -->
+
+    <ListView
+        android:id="@+id/weeklyRemindersListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+</LinearLayout>

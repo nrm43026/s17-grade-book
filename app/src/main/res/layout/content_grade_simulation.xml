@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.matth.gradebook.GradeSimulationActivity"
+    tools:showIn="@layout/activity_grade_simulation">
+
+    <TextView
+        android:id="@+id/desiredGradeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:text="Desired Grade: "
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/whatGradeDesiredEditText"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desiredGradeTextView"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:hint="A"
+        android:textAppearance="@style/TextAppearance.AppCompat"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whatGradeDesiredEditText"
+        android:layout_alignParentBottom="true">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:text="Calculate"
+        android:layout_below="@+id/whatGradeDesiredEditText"
+        android:layout_alignLeft="@+id/whatGradeDesiredEditText"
+        android:layout_alignStart="@+id/whatGradeDesiredEditText" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:text="Cancel"
+        android:layout_below="@+id/whatGradeDesiredEditText"
+        android:layout_toRightOf="@+id/calculateButton"
+        android:layout_toEndOf="@+id/calculateButton" />
+
+</RelativeLayout>

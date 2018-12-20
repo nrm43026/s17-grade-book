@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="horizontal_line_height">2dp</dimen>
+    <dimen name="editText_width">220dp</dimen>
+</resources>

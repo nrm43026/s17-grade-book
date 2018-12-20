@@ -1,0 +1,93 @@
+<course>
+	<courseName>COMP394-Q1WW (S17)</courseName>
+	<courseFullName>CS Practicum 2</courseFullName>
+	<assignment>
+		<name>Resume</name>
+		<dueDate>Wed, May 17, 2017 </dueDate>
+		<pointsEarned>30</pointsEarned>
+		<pointsPossible>30</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>Software Development Methodologies</name>
+		<dueDate>Sun, May 21, 2017 </dueDate>
+		<pointsEarned>30</pointsEarned>
+		<pointsPossible>30</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>W2 Status Report</name>
+		<dueDate>Sun, May 28, 2017 </dueDate>
+		<pointsEarned>0</pointsEarned>
+		<pointsPossible>40</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>W3 Status Report</name>
+		<dueDate>Sun, Jun 4, 2017 </dueDate>
+		<pointsEarned>36</pointsEarned>
+		<pointsPossible>40</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>W4 Status Report</name>
+		<dueDate>Sun, Jun 11, 2017 </dueDate>
+		<pointsEarned>37</pointsEarned>
+		<pointsPossible>40</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>W5 Status Report</name>
+		<dueDate>Sun, Jun 18, 2017 </dueDate>
+		<pointsEarned>36</pointsEarned>
+		<pointsPossible>40</pointsPossible>
+	</assignment>
+	<assignment><name>W6 Status Report</name>
+		<dueDate>Sun, Jun 25, 2017 </dueDate>
+		<pointsEarned>36</pointsEarned>
+		<pointsPossible>40</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>W7 Status Report</name>
+		<dueDate>Sun, Jul 2, 2017 </dueDate>
+		<pointsEarned/>
+		<pointsPossible>40</pointsPossible>
+		</assignment>
+	<assignment>
+		<name>W8 Status Report</name>
+		<dueDate>Sun, Jul 9, 2017 </dueDate>
+		<pointsEarned/>
+		<pointsPossible>40</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>W9 Status Report</name>
+		<dueDate>Sun, Jul 16, 2017 </dueDate>
+		<pointsEarned/>
+		<pointsPossible>40</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>W10 Status Report</name>
+		<dueDate>Sun, Jul 23, 2017 </dueDate>
+		<pointsEarned/>
+		<pointsPossible>40</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>Final Report - Individual</name>
+		<dueDate>Sun, Jul 30, 2017 </dueDate>
+		<pointsEarned/>
+		<pointsPossible>80</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>Final Report: Team</name>
+		<dueDate>Sat, Aug 5, 2017 </dueDate>
+		<pointsEarned/>
+		<pointsPossible>297</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>Performance Review</name>
+		<dueDate>Sat, Aug 5, 2017 </dueDate>
+		<pointsEarned/>
+		<pointsPossible>100</pointsPossible>
+	</assignment>
+	<assignment>
+		<name>Self-Assessment</name>
+		<dueDate>Sat, Aug 5, 2017 </dueDate>
+		<pointsEarned/>
+		<pointsPossible>100</pointsPossible>
+	</assignment>
+</course>

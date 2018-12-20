@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.matth.gradebook.settings.ClearActivity"
+    tools:showIn="@layout/activity_clear">
+
+    <Button
+        android:id="@+id/clearCancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/clearConfirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/clearSafetySwitch"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="48dp"
+        android:text="Confirm" />
+
+    <Switch
+        android:id="@+id/clearSafetySwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/clearCancelButton"
+        android:layout_alignStart="@+id/clearCancelButton"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="23dp"
+        android:text="Safety" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/clearSafetySwitch"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/clearSafetySwitch"
+        android:layout_marginTop="32dp"
+        android:text="Switch safety and hold confirm to delete all data." />
+
+</RelativeLayout>

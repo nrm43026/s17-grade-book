@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.matth.gradebook.AddEditDeleteCourseActivity"
+    tools:showIn="@layout/activity_add_edit_delete_course">
+
+    <TextView
+        android:id="@+id/courseIdHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:text="@string/course_id"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/courseIdInput"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/courseIdHeader"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:hint="@string/course_id_hint"
+        android:textAppearance="@style/TextAppearance.AppCompat"/>
+
+    <TextView
+        android:id="@+id/courseNameHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/courseIdInput"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:text="@string/course_name"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/courseNameInput"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/courseNameHeader"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:hint="@string/course_name_placeholder"
+        android:textAppearance="@style/TextAppearance.AppCompat"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/courseNameInput"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginStart="@dimen/fab_margin"
+            android:layout_weight=".5"
+            android:text="@string/save_button" />
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_weight=".5"
+            android:text="@string/delete_button" />
+
+    </LinearLayout>
+
+</RelativeLayout>

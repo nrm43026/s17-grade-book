@@ -1,0 +1,9 @@
+// notes
+https://robots.thoughtbot.com/how-to-make-a-chrome-extension
+https://stackoverflow.com/questions/14340894/create-xml-in-javascript
+https://stackoverflow.com/questions/5049635/how-to-send-data-to-remote-server-using-javascript
+https://stackoverflow.com/questions/21012580/is-it-possible-to-write-data-to-file-using-only-javascript
+https://stackoverflow.com/questions/8986376/how-to-download-xml-file-from-server-and-save-it-in-sd-card
+https://stackoverflow.com/questions/16545378/how-can-i-fetch-data-from-a-web-server-in-an-android-application
+https://www.w3schools.com/xml/dom_intro.asp
+
