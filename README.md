@@ -1,0 +1,2 @@
+# s17-grade-book
+A group project I worked on last year for my Computer Science Practicum I class, I was a junior member of our group (Practicum I) working alongside two senior members (Practicum II) and a project manager (Practicum III).  We created an Android application for students to keep track of their course and assignment information, I mostly worked on the addEditDelete Assignment/Course activities and helped out wherever else I could.
